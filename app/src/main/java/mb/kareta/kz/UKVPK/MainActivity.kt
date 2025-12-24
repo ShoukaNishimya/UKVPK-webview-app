@@ -29,10 +29,10 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     companion object {
-        const val WEB_URL: String = "https://app.kareta.kz/"
-        const val ALLOWED_HOST: String = "app.kareta.kz"
+        const val WEB_URL: String = "https://mb.kareta.kz/"
+        const val ALLOWED_HOST: String = "mb.kareta.kz"
 
-        const val SOCKET_ORIGIN: String = "https://app.kareta.kz"
+        const val SOCKET_ORIGIN: String = "https://mb.kareta.kz"
         const val SOCKET_PATH: String = "/ws/socket.io"
     }
 
